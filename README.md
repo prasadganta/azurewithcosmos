@@ -9,6 +9,7 @@
   3. Create the azure cosmos DB account
   4. Create the AKS service and Kubernates cluster
   5. Install the AZURE CLI in your local machine
+  6. Install the Docker Engine 
   
   
 # POM changes :
@@ -54,8 +55,8 @@
    3. mvn docker:build docker:push
         This command will create the docker image and will push to your  azure container registery
    4. az account set --subscription <your subcription name>
-   5. az aks get-credentials --resource-group <your resource group> --name kubernate-service-clust
-   6. kubectl create deployment azurewithcosmos --image=m<your azure container registery name>.azurecr.io/azurewithcosmos:latest
+   5. az aks get-credentials --resource-group <your resource group> --name <your kubernates service name>
+   6. kubectl create deployment azurewithcosmos --image=<your azure container registery name>.azurecr.io/azurewithcosmos:latest
    7. kubectl get pod    This command will show your running pod in running status
    8. kubectl expose deployment azurewithcosmos --type=LoadBalancer --port=8080  —> this command to expose the service to 8080 port 
    9. Kubectl get services —> Now you should able to see your app as service one with load balancing  IPs like cluster and external try to use external IP to test the  service
