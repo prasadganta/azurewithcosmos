@@ -1,6 +1,7 @@
 # azurewithcosmos
-# This is the example to add springboot app to deploy AK service with using Azure Container Regsitery 
-# Using Cosmos DB internally 
+# How to deploy spirngboot application using cosmos db
+# Creating the docker image and pushing to  Azure container registery  
+# Deploying the image into Azure Kubernates service  using Azure container registery 
 
 # Prerequisites 
   1. Azure subcription you should have
