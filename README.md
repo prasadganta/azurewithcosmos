@@ -8,6 +8,7 @@
   2. Create the Azure container registery
   3. Create the azure cosmos DB account
   4. Create the AKS service and Kubernates cluster
+  5. Install the AZURE CLI in your local machine
   
   
 # POM changes :
