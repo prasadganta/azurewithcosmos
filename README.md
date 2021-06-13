@@ -9,7 +9,7 @@
   4. Create the AKS service and Kubernates cluster
   
   
-#POM changes :
+# POM changes :
 
 1. We need to deal with the AZURE container reg to push the generated artifact jar, for that we need to add below plugin once you created the project .
 
@@ -36,7 +36,7 @@
 				</configuration>
 			</plugin>
       
- #How to build :
+ # How to build :
  
  1. mvn clean package 
  2. Add the Azure conatainer reg details in the  maven profile settings.xml under the <servers> tag as below.
