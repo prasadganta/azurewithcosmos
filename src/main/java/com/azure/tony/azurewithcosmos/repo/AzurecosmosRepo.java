@@ -9,7 +9,7 @@ import com.azure.tony.azurewithcosmos.model.User;
 
 
 @Repository
-public interface azurecosmosRepo  extends CosmosRepository<User, String>{
+public interface AzurecosmosRepo  extends CosmosRepository<User, String>{
 	
 	List<User> findByLocation(String location);
 
