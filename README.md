@@ -1,5 +1,5 @@
 # azurewithcosmos
-# How to deploy spirngboot with cosmos db application
+# How to deploy spirngboot cosmos db application
 # Creating the docker image and pushing into  Azure container registery  
 # Deploying the docker image into Azure Kubernates service cluster
 
