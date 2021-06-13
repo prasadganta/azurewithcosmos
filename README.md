@@ -1,7 +1,7 @@
 # azurewithcosmos
 # How to deploy spirngboot application using cosmos db
-# Creating the docker image and pushing to  Azure container registery  
-# Deploying the image into Azure Kubernates service  using Azure container registery 
+# Creating the docker image and pushing into  Azure container registery  
+# Deploying the docker image into Azure Kubernates service cluster
 
 # Prerequisites 
   1. Azure subcription you should have
